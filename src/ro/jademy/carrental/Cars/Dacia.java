@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 public class Dacia extends Car {
 
-    public Dacia(String model, Integer year, float engine, boolean isRented, BigDecimal price, int horsePower) {
-        super("Dacia" , model, year, engine, isRented, price, horsePower);
+    public Dacia(String model, Integer year, float engine, boolean isRented, BigDecimal price, String color, int horsePower) {
+        super("Dacia" , model, year, engine, isRented, price,color, horsePower);
     }
 
 

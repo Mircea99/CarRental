@@ -12,11 +12,18 @@ public abstract class Car {
     public String color;
     public int horsePower;
 
-    public Car(String make, String model, Integer integer, float engine, boolean isRented, BigDecimal price, Integer year) {
+    public Car(String make, String model, Integer year, float engine, boolean isRented, BigDecimal price, String color, int horsePower) {
         this.make = make;
         this.model = model;
         this.year = year;
+        this.engine = engine;
+        this.isRented = isRented;
+        this.price = price;
+        this.color = color;
+        this.horsePower = horsePower;
     }
+
+
 
     public String getColor() {
         return color;
@@ -35,7 +42,7 @@ public abstract class Car {
     }
 
     public boolean isRented() {
-        return isRented;
+        return this.isRented;
     }
 
     public void setRented(boolean rented) {
