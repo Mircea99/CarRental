@@ -12,7 +12,7 @@ public class Salesman extends Person{
         this.password = password;
     }
 
-    // Q: how can we avoid duplicate code in the salesman and the customer classes?
+    // Q: how can we avoid duplicate code scanner the salesman and the customer classes?
 
 
     public String getUsername() {
