@@ -1,4 +1,4 @@
-package ro.jademy.carrental.Cars;
+package ro.jademy.carrental.cars;
 
 import java.math.BigDecimal;
 
