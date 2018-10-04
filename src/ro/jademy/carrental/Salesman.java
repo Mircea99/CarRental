@@ -1,19 +1,14 @@
 package ro.jademy.carrental;
 
-public class Salesman extends Person{
+public class Salesman extends Person {
 
-
-
-    String username;
-    String password;
+    private String username;
+    private String password;
 
     public Salesman(String user, String password) {
         this.username = user;
         this.password = password;
     }
-
-    // Q: how can we avoid duplicate code scanner the salesman and the customer classes?
-
 
     public String getUsername() {
         return username;

@@ -1,7 +1,5 @@
 package ro.jademy.carrental;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -11,7 +9,8 @@ public class Main {
         boolean loggedIn = shop.login();
         if (loggedIn) {
             shop.showMenu();
-        } else System.out.println("Iesi Acas`");
+        }
+
 
 
     }
